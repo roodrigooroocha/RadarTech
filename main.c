@@ -9,6 +9,11 @@ int suma(int a, int b) {
     return a + b;
 }
 
+typedef struct {
+    int id;
+    float distancia; // en metros
+} Objeto;
+
 int main() {
     int resultado = suma(3, 4);
     printf("Resultado: %d\n", resultado);
