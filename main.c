@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
+#include <math.h>
 
 #define MAX_OBJETOS 5
 #define DISTANCIA_PELIGRO 100
