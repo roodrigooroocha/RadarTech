@@ -26,6 +26,7 @@ void escanearRadar(Objeto objetos[], int cantidad) {
 }
 
 int main() {
+    int num_radares;
     int resultado = suma(3, 4);
     printf("Resultado: %d\n", resultado);
 
@@ -40,6 +41,8 @@ int main() {
 
     escanearRadar(objetosDetectados, MAX_OBJETOS);
 
+    printf("Cuantos radares quieres comprar?\n");
+    scanf("%d", num_radares);
     return 0;
 }
 
